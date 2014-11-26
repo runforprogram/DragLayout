@@ -25,7 +25,7 @@ public class DragLayout extends FrameLayout {
     private GestureDetectorCompat gestureDetector;
     private ViewDragHelper dragHelper;
     private DragListener dragListener;
-    private int range;
+    private int range;//打开时，菜单栏的宽度。
     private int width;
     private int height;
     private int mainLeft;
